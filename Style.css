@@ -4,6 +4,8 @@ body {
     color: #ffffff; 
     margin: 20px;
     text-align: center;
+    background-image: url("supernova.jpg");
+    cursor: url("carrot.png") 16 16, auto;
 }
 h1 { 
     background-color: red; 
@@ -14,11 +16,9 @@ p, ul, ol, table {
     text-align: left;
     max-width: 700px;
     margin: 0 auto 1em auto;
-
 }
 ul, ol { 
     padding-left: 100px;
-
 }
 
 table { 
@@ -26,6 +26,16 @@ table {
     color: black;
     width: 60%;
     margin: 0 auto 10px auto;
-
-
+}
+th, td { 
+    border: 1px dotted black;
+}
+a { 
+    color: yellow;
+}
+a:hover {
+    color: green;
+}
+img {
+    width: 400px; 
 }
